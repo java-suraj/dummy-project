@@ -25,9 +25,4 @@ public class HomeController {
     public String getPage4() {
         return "<html><head><style>body{font-family: Arial, sans-serif;background-color: #f4f4f4;text-align: center;margin: 0;}h1{color: #333;}footer{background-color: #333;color: #fff;text-align: center;padding: 10px;position: absolute;bottom: 0;width: 100%;}</style></head><body><h1>Welcome to Home Page 4</h1><footer>&copy; 2023 My Home Page. All rights reserved.</footer></body></html>";
     }
-
-    @GetMapping("/home/page5")
-    public String getPage5() {
-        return "<html><head><style>body{font-family: Arial, sans-serif;background-color: #f4f4f4;text-align: center;margin: 0;}h1{color: #333;}footer{background-color: #333;color: #fff;text-align: center;padding: 10px;position: absolute;bottom: 0;width: 100%;}</style></head><body><h1>Welcome to Home Page 5</h1><footer>&copy; 2023 My Home Page. All rights reserved.</footer></body></html>";
-    }
 }
